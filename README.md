@@ -19,4 +19,4 @@ This repository provides stage-wise implementation of StackGANs to produce photo
 
 The eventual outcomes of both `Stage-1 StackGAN` and `Stage-2 StackGAN` can be seen against each given input text in the following attached image:-
 
-![alt text](https://github.com/fork123aniket/Text-to-Image-Synthesis-using-StackGANs/tree/main/Images/Result.png)
+![alt text](https://github.com/fork123aniket/Text-to-Image-Synthesis-using-StackGANs/blob/main/Images/Result.png)
