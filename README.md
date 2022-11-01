@@ -1,4 +1,4 @@
-# StackGANs based Text to Image Generation
+# StackGANs-based Text to Image Generation
 
 This repository provides stage-wise implementation of StackGANs to produce photo-realistic images from given text.
 
