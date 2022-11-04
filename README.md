@@ -1,6 +1,6 @@
 # StackGANs-based Text to Image Generation
 
-This repository provides stage-wise implementation of StackGANs to produce photo-realistic images from given text. The Stage-1 GAN sketches the primitive shape and colors of the object based on the given text description, yielding Stage-1 low-resolution images. On the other hand, The Stage-2 GAN takes Stage-I results and text descriptions as inputs and generates high-resolution images with photo-realistic details. Moreover, it is able to rectify defects in Stage-1 results and add compelling details with the refinement process.
+This repository provides Stage-wise implementation of StackGANs to produce photo-realistic images from given text. The Stage-1 GAN sketches the primitive shape and colors of the object based on the given text description, yielding Stage-1 low-resolution images. On the other hand, The Stage-2 GAN takes Stage-1 results and text descriptions as inputs and generates high-resolution images with photo-realistic details. Moreover, it is able to rectify defects in Stage-1 results and add compelling details with the refinement process.
 
 ## Requirements
 
