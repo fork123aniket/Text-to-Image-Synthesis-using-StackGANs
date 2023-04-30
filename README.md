@@ -14,6 +14,10 @@ This repository provides Stage-wise implementation of StackGANs to produce photo
 
 ## Usage
 
+### Data
+The training of StackGAN has been performed on CUB dataset. CUB contains 200 bird species with 11,788 images. Since 80% of birds in this dataset have object-image size ratios of less than 0.5, as a pre-processing step, cropping has been executed for all images to ensure that bounding boxes of birds have greater-than-0.75 object-image size ratios. The dataset can either be downloaded from [***here***](https://drive.google.com/open?id=0B3y_msrWZaXLT1BZdVdycDY5TEE) or can be obtained by running `wget http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/CUB_200_2011.tgz` command.
+
+### Training and Testing
 - To train ***Stage-1 StackGAN*** : run `Train_Stage_1_GAN.py`
 - To test ***Stage-2 StackGAN*** : run `Train_Stage_2_GAN.py`
 - To see the ***Stage-1 StackGAN*** and ***Stage-2 StackGAN*** implementations, please check `Stage_1_GAN.py` and `Stage_2_GAN.py` respectively.
