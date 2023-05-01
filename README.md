@@ -21,7 +21,7 @@ The training of StackGAN has been performed on CUB dataset. CUB contains 200 bir
 - To train ***Stage-1 StackGAN*** : run `Train_Stage_1_GAN.py`
 - To test ***Stage-2 StackGAN*** : run `Train_Stage_2_GAN.py`
 - To see the ***Stage-1 StackGAN*** and ***Stage-2 StackGAN*** implementations, please check `Stage_1_GAN.py` and `Stage_2_GAN.py` respectively.
-- All hyperparamters to control training and testing of ***StackGANs*** are provided in `Train_Stage_1_GAN.py` and `Train_Stage_2_GAN.py` files.
+- All hyperparameters to control training and testing of ***StackGANs*** are provided in `Train_Stage_1_GAN.py` and `Train_Stage_2_GAN.py` files.
 
 ## Results
 
